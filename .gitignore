@@ -2,7 +2,7 @@
 .idea
 
 *.class
-
+finding_the_minimum_element.iml
 # Log file
 *.log
 
