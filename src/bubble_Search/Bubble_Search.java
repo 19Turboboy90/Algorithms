@@ -3,13 +3,10 @@ package bubble_Search;
 public class Bubble_Search {
     public static void main(String[] args) {
         int[] array = new int[]{34, 3, 56, 27, 85, 25, 83, 66, 28, 57, 48};
+
         // sorting1(array);
         sorting2(array);
-
-        for (int element : array) {
-            System.out.print(element + " ");
-        }
-
+        printArray(array);
     }
 
     private static void sorting1(int[] array) {
@@ -37,5 +34,16 @@ public class Bubble_Search {
                 }
             }
         }
+    }
+
+    private static void printArray(int[] array) {
+        System.out.print("[");
+        for (int i = 0; i < array.length; i++) {
+            if (i > 0) {
+                System.out.print(", ");
+            }
+            System.out.print(array[i]);
+        }
+        System.out.println(".]");
     }
 }

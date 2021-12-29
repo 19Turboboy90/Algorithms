@@ -16,7 +16,6 @@ public class MinValue {
                 minIndex = i;
             }
         }
-
         System.out.println("The minimum number in the array: " + minValue + "\nIndex of the minimum number: " + minIndex);
     }
 }
