@@ -3,8 +3,7 @@ package bubble_Search;
 public class Bubble_Search {
     public static void main(String[] args) {
         int[] array = new int[]{34, 3, 56, 27, 85, 25, 83, 66, 28, 57, 48};
-
-        // sorting1(array);
+        //sorting1(array);
         sorting2(array);
         printArray(array);
     }
