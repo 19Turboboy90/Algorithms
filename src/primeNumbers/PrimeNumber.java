@@ -1,7 +1,6 @@
 package primeNumbers;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -10,8 +9,8 @@ public class PrimeNumber {
         Scanner console = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int num = console.nextInt();
-        System.out.println("Prime numbers up to " + num + ": " + Arrays.toString(getPrimeNumbers(num).toArray()) + "\n"
-                + "size: " + getPrimeNumbers(num).size());
+        System.out.println("Prime numbers up to " + num + ": " + getPrimeNumbers(num) +
+                "size: " + getPrimeNumbers(num).size());
     }
 
     private static List<Integer> getPrimeNumbers(int max) {
